@@ -1,0 +1,315 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: black;
+    border-bottom: 3px solid #32b9cd;
+
+
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px ;
+  
+}
+
+.titulo {
+    color: #32b9cd;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    width: 300px;
+    justify-content: space-between;
+    color: #e3b062;
+
+
+}
+
+.navbar a {
+    color: #e3b062;
+    text-decoration: none;
+
+}
+
+.banner{
+    height: 400px;
+    width: 100%;
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+}
+
+.banner .container p{
+    margin: 0;
+    font-size: 28px;
+    width: 170px;
+}
+
+.banner .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.banner .container p span{
+    font-weight: bold;
+
+
+}
+
+.social {
+    height: 400px;
+    width: 100%;
+    background-color: #dcdcdc;
+}
+
+.social .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.box h4{
+    margin: 0;
+    margin-top: 10px;
+    color: blueviolet;
+}
+
+.box img{
+    width: 120px;
+    height: 120px;
+}
+
+.footer{
+    width: 100%;
+    height: 120px;
+    background-color: #32b9cd;
+}
+
+.footer .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+
+.footer .container h4{
+    margin-bottom: 0;
+}
+
+
+.login .container{
+    background-color: rgba(219, 215, 218, 0.986);
+    border-radius: 10px;
+
+}
+
+.login {
+    width: 100%;
+    height: 70vh;
+
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .card-login{
+    width: 400px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+   
+}
+
+.login h2{
+    margin: 0%;
+    margin-bottom: 15px;
+    color: palevioletred;
+    
+
+}
+
+.login .campo{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: small;
+    color: palevioletred;
+    
+}
+
+.login .formulario{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.login input{
+    height: 20px;
+
+    border-radius: 5px;
+    border-color: #32b9cd;
+    text-align: center;
+
+}
+
+
+
+.login .botao{
+    width: 90px;
+    height: 25px;
+
+    border-style: none;
+    border-radius: 5px;
+    background-color: #ED145B;
+    color: aliceblue;
+
+}
+
+.login .card-cadastro{
+    width: 500px;
+    height: 300px;
+}
+
+
+.login2 .container{
+    background-color: rgba(219, 215, 218, 0.986);
+    border-radius: 10px;
+   
+
+}
+
+.login2 {
+    width: 100%;
+    height: 70vh;
+
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login2 .card-login{
+    width: 400px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+   
+}
+
+.login2 h2{
+    margin: 0%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: palevioletred;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.login2 .campo{
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: small;
+    color: palevioletred;
+    
+    
+}
+
+.login2 .formulario{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3%;
+
+}
+
+.login2 input{
+    height: 20px;
+
+    border-radius: 5px;
+    border-color: #32b9cd;
+    text-align: center;   
+
+}
+
+
+.login2 .botao{
+    width: 90px;
+    height: 25px;
+
+    margin-top: 10px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #ED145B;
+    color: aliceblue;
+
+}
+
+.login2 .card-cadastro{
+    width: 500px;
+    height: 360px;
+   
+}
+
+
+
+
+
+
+
